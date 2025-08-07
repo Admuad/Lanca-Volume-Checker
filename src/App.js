@@ -31,7 +31,7 @@ const App = () => {
     // Router contracts are now arrays to support multiple addresses per chain
     lancaDexRouterContracts: {
       'base': ['0xE66F53C27Ebe29E85D8396563B35BF8915039796', '0x164c20A4E11cBE0d8B5e23F5EE35675890BE280d'], // Added new Base router
-      'polygon': ['0x4B95b9b404BD69D5c9af00B7F43f327A376909F4', '0x164c20A4E11cBE0d8B5e23F5EE35675890BE280d'], // Added new Polygon router
+      'polygon': ['0x4B95b9b404BD69D5c9af00B7F43f327A376909F4', '0x0AE1B2730066AD46481ab0a5fd2B5893f8aBa323'], // Added new Polygon router
       'optimism': ['0xCF93E045778dE481De87586b91BC7C4F09147502', '0xfE0433d0EBf38adD2E6FdC6D5d552eCe699014A7'], // Ensured array
       'arbitrum': ['0xe6BbA380D02BF8a4c8185cA95025206B6f1Cf8C7', '0x0AE1B2730066AD46481ab0a5fd2B5893f8aBa323'], // Ensured array
       // Corrected Avalanche router address and ensured it's an array
